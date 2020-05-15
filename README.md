@@ -24,3 +24,5 @@ Independently Adjustable Nozzle Height<br/>
 Remote Direct Drive Extruders<br/>
 Purge Bucket/Ooze guards<br/>
 Reverse Bowden w/filament runout<br/>
+
+Facebook User Group: https://www.facebook.com/groups/961386687613469/
