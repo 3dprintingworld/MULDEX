@@ -42,3 +42,7 @@ Jig's for drilling the holes in the extrusions can be found here:[ Guillaume Gen
 [Slice Engineering](https://www.sliceengineering.com)<br/>
 [Wham Bam](https://www.whambamsystems.com)<br/>
 [Zesty Tech](https://zesty.tech/)<br/>
+
+### Known Issues:
+1. Firmware not yet finalized
+  
