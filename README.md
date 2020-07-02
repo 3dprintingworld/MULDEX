@@ -2,8 +2,6 @@
 
 # Muldex
 Opensource IDEX REP-RAP 3D Printer
-MULDEX
-3D PRINTER
 ### Print Volume:
 Single Mode: 365mm x 300mm x 300mm<br/>
 Copy Mode: 180mm x 300mm x 300mm<br/>
