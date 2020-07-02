@@ -1,3 +1,5 @@
+![Muldex](Images/MULDEX-BANNER-1.png)
+
 # Muldex
 Opensource IDEX REP-RAP 3D Printer
 MULDEX
