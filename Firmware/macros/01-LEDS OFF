@@ -1,0 +1,4 @@
+;Turn off lights
+
+M106 P4 S0                               ; Turn left LED off
+M106 P5 S0                               ; Turn right LED off

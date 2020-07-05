@@ -1,0 +1,4 @@
+;Turn LEDs on
+
+M106 P4 S255                               ; Turn left LED on
+M106 P5 S255                               ; Turn right LED on

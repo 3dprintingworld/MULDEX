@@ -1,0 +1,3 @@
+power up + 01:06:33 Event logging started
+power up + 01:06:33 Warning: Obsolete use of S parameter on G1 command. Use H parameter instead.
+power up + 01:06:36 Event logging stopped

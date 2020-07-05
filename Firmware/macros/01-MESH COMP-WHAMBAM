@@ -1,0 +1,6 @@
+M140 S60
+M190 S60
+G28
+G29 S0
+G29 S3 P"whambam.csv"
+M140 S0
