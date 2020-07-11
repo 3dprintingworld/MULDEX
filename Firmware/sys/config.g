@@ -10,16 +10,17 @@ M586 P1 S0                                      ; disable FTP
 M586 P2 S0                                      ; disable Telnet
 
 ; Drives
-M569 P1 S0                                      ; X physical drive 0 goes backwards
-M569 P1 S1                                      ; Y right physical drive 1 goes forwards
-M569 P2 S0                                      ; U physical drive 2 goes backwards
-M569 P3 S1                                      ; E1 physical drive 3 goes forwards
-M569 P4 S1                                      ; E2 physical drive 4 goes forwards
+M569 P0 S1                                      ; X physical drive 0 goes backwards
+M569 P1 S0                                      ; Y right physical drive 1 goes forwards
+M569 P2 S1                                      ; Y left physical drive 8 goes backwards
+M569 P3 S0                                      ; U physical drive 2 goes backwards
+M569 P4 S1                                      ; E1 physical drive 3 goes forwards
 M569 P5 S0                                      ; Z left physical drive 5 goes backwards
 M569 P6 S0                                      ; Z center physical drive 6 goes backwards
 M569 P7 S1                                      ; Z right physical drive 7 goes forwards
-M569 P9 S0                                      ; Y left physical drive 8 goes backwards
-M584 X0 U2 Y1:9 Z5:6:7 E3:4                     ; set drive mapping
+M569 P8 S1                                      ; E2 physical drive 4 goes forwards
+
+M584 X0 Y1:2 U3 Z5:6:7 E4:8                     ; set drive mapping
 
 M350 X16 U16 Y16 Z16 E16:16 I1                                                        ; configure microstepping with interpolation
 M92 X100.00 U100.00 Y100.00:100.00 Z1096:1096:1096 E1760.00:1760.00                   ; set steps per mm (1827bf extruder)(1800 rec)
@@ -37,21 +38,17 @@ M669 K0 Y1:-1:0:1				                ; select Markforged Kinematics Y to react w
 
 ; Endstops
 M574 X2 S1 P"xstop"                             ;X axis active high endstop switch
+M574 Y2 S1 P"ystop+e1stop"                       ; Y Double max active high endstop switch
 M574 U1 S1 P"e0stop"                            ;U axis active high endstop switch
-M574 Y2 S1 P"Ystop"                             ;Y axis active high endstop switch
-;M574 V2 S1 P"zstop"                            ;V axis active high endstop switch
 
-;Dual Y Endstop
-;M574 Y2 S1 P"ystop+zstop"                      ; Y Double max active high endstop switch
-
-;Stall Detection
+;Stall Detection(no used)
 ;M574 Y1 S4                                     ; Y axis stall detection
 ;M915 P1:9 S3 F1 R0                             ; Y axis stall detection
 
 ; Z-Probe
 M671 X-20.6:200:420.6 Y14.3:333.3:14.3 S2       ; Locations left, center, right          
 M950 S0 C"duex.e6heat"                          ; create servo pin 0 for BLTouch
-M558 P9 C"zprobe.in+zprobe.mod" H5 F120 T6000   ; set Z probe type to bltouch and the dive height + speeds
+M558 P9 C"zprobe.in+zprobe.mod" H5 F120 T9000   ; set Z probe type to bltouch and the dive height + speeds
 G31 P25 X28.8 Y0 Z2.20                          ; set Z probe trigger value, offset and trigger height(lower number farther away)2.23build 2.20nocomp
 M557 X65:390 Y10:290 S20                        ; probe from X=10 to 190, Y=10 to 190mm with a mesh spacing of 20mm
 
@@ -88,11 +85,11 @@ M106 P5 S255 H-1                                 ; set LED 5 value. Thermostatic
 
 ; Tools
 M563 P0 D0 H1 X3 F0 S"Left"                      ; define tool 0 Left 
-G10 P0 X0 Y-.45 Z0                               ; set tool 0 axis offsets y was .13
+G10 P0 X0 Y0 Z0                               ; set tool 0 axis offsets y was .45
 G10 P0 R0 S0                                     ; set initial tool 0 active and standby temperatures to 0C
 
 M563 P1 D1 H2 F2 S"Right"                        ; define tool 1 Right
-G10 P1 X0 Y0 Z0                                  ; set tool 1 axis offsets
+G10 P1 X0 Y.5 Z0                                  ; set tool 1 axis offsets
 G10 P1 R0 S0                                     ; set initial tool 1 active and standby temperatures to 0C
 
 M563 P2 D0:1 H1:2 X0:3 F0:2 S"Copy"              ; define tool 2 Copy
