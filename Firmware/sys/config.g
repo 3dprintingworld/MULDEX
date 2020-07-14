@@ -27,7 +27,7 @@ M92 X100.00 U100.00 Y100.00:100.00 Z1096:1096:1096 E1760.00:1760.00             
 M566 X1600.00 U1600.00 Y1600.00:1600.00 Z80.00:80.00:80.00 E40.00:40.00               ; set maximum instantaneous speed changes (mm/min)(900)
 M203 X12000.00 U12000.00 Y12000.00:12000.00 Z1500.00:1500.00:1500.00 E4200.00:4200.00 ; set maximum speeds (mm/min)
 M201 X750.00 U750.00 Y750.00:750.00 Z35.00:35.00:35.00 E120.00:120.00                 ; set accelerations (mm/s^2)(500)
-M906 X900 U900 Y900:900 Z200:200:200 E600:600 I30                                     ; set motor currents (mA) and motor idle factor in per cent
+M906 X600 U600 Y600:600 Z200:200:200 E500:500 I30                                     ; set motor currents (mA) and motor idle factor in per cent
 M84 S30                                                                               ; Set idle timeout
 
 ; Axis Limits
