@@ -20,8 +20,10 @@ Z-Axis: Belted 9mm Planetary Steppers<br/>
 Controller: Duet 2/Panel Due i7/Duex 5<br/>
 Frame: 4020 & 2020 Extruded Aluminum<br/>
 ### Componets:<br/>
-Independently Adjustable Nozzle Height<br/>
-Remote Direct Drive Extruders<br/>
+Independently Adjustable Nozzle Height - Slice Copperhead Hotends<br/>
+Remote Direct Drive Extruder - Zesty Nimble<br/>
+ors<br/>
+Direct Drive Extruder - Bondtech BMGs<br/>
 Purge Bucket/Ooze guards<br/>
 Reverse Bowden w/filament runout<br/>
 
