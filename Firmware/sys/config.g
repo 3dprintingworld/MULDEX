@@ -65,7 +65,7 @@ M307 H1 B0 S1.00                                                 ; disable bang-
 M308 S2 P"e1temp" Y"thermistor" T500000 B4723 C1.196220e-7 R4700 ; configure sensor 2 as thermistor on pin e1temp
 M950 H2 C"e1heat" T2                                             ; create nozzle heater output on e1heat and map it to sensor 2
 M143 H2 S280                                                     ; set temperature limit for heater 2 to 280C
-M307 H2 B0 S1.01                                                 ; disable bang-bang mode for heater  and set PWM limit
+M307 H2 B0 S1.00                                                 ; disable bang-bang mode for heater  and set PWM limit
 
 ; Fans
 M950 F0 C"fan0" Q500                             ; create fan 0 on pin fan0 and set its frequency
