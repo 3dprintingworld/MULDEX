@@ -49,11 +49,10 @@ Additional links can be found in the bom. <br/>
 ### Firmware, to do list:<br/>
 1. Add Filament Sensors<br/>
 2. Filament Change Sequence<br/>
-3. Filament Load/Unload Sequence<br/>
-4. Add macros to turn off mesh bed and change first layer heights<br/>
+3. Add macros to turn off mesh bed and change first layer heights<br/>
 
 Note: current firmware only supports the BMG extruder, X-axis on left.<br/>
   
 ### Printed parts, to do list:<br/>
 1. Intergrate trigger for X and U axis optic endstops switches into y axis carriage, and change Y axis switches from mechanical to optical.  Parts affected; MULDEX-14-01, MULDEX-37-01.<br/>
-2. Space up the bed as a result of the shortler stack height from changing to the BMG. Parts affected; MULDEX-16-02, MULDEX-17-02, MULDEX-18-02.
+
