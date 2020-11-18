@@ -1,0 +1,23 @@
+M291 P"Please wait while the nozzle is being heated up" R"Unloading PLA" T5 ; Display message
+G10 S215 ; Set current tool temperature to 200C
+G1 X-0 U410 Y-8 F6000 ; go to X=0 Y=0
+M116 ; Wait for the temperatures to be reached
+M300 S200 P500                         ; beep
+M106 P4 S0                               ; Turn left LED off
+M106 P5 S0                               ; Turn right LED off
+G4 P1000 ; Wait one second
+M106 P4 S255                               ; Turn left LED off
+M106 P5 S255                               ; Turn right LED off
+G4 P1000 ; Wait one second
+M106 P4 S0                               ; Turn left LED off
+M106 P5 S0                               ; Turn right LED off
+G4 P1000 ; Wait one second
+M106 P4 S255                               ; Turn left LED off
+M106 P5 S255                               ; Turn right LED off
+;
+M291 P"Extruding filament..." R"Loading PLA" T5 ; Display another message
+G1 E50 F1200 ; Retract 20mm of filament at 300mm/min
+G1 E30 F300 ; Retract 480mm of filament at 3000mm/min
+M400 ; Wait for the moves to finish
+M292 ; Hide the message again
+M84 E0 ; Turn off extruder drives 1 and 2
