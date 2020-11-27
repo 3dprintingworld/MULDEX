@@ -15,9 +15,9 @@ Independent motor leveled bed<br/>
 Flex Plate System<br/>
 ### Kinematics:<br/>
 X-Y-U Axis: Dual Markforged <br/>
-Z-Axis: Belted 9mm Planetary Steppers<br/>
+Z-Axis: Belted 8mm Planetary Steppers<br/>
 12 and 9mm Sq. Rail Bearings<br/>
-Controller: Duet 2/Panel Due i7/Duex 5<br/>
+Controller: Duet 2/Panel Due i7/Duex 5/Filament Monitors<br/>
 Frame: 4020 & 2020 Extruded Aluminum<br/>
 ### Componets:<br/>
 Independently Adjustable Nozzle Height - Slice Engineering Copperhead Hotend <br/>
