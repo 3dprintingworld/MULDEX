@@ -25,9 +25,9 @@ Direct Drive Bondtech BMG Extruder or Remote Direct Drive Zesty Nimble Extruder 
 Purge Bucket/Ooze guards<br/>
 Reverse Bowden w/filament runout<br/>
 
-Facebook: [Muldex User Group](https://www.facebook.com/groups/961386687613469)
-
 ### Links:
+Facebook: [Muldex User Group](https://www.facebook.com/groups/961386687613469)<br/>
+BMG Extruder Carriage Render: [Animation](https://https://youtu.be/zeYfmW2Gefs)<br/>
 Jig's for drilling the holes in the extrusions can be found here:[ Guillaume Gendron's Drilling Jigs](https://www.prusaprinters.org/prints/32532-drilling-jigs-for-2020-and-2040-extrusions?fbclid=IwAR0py0DBZHolj00tUQ7sBJJz-VRNig2q1UsV53dtzBp9e5wvFwZq9592s_k)<br/>
 Custom cut Mic6 bed from [3Dfused ](https://3dfused.com/product/muldex-by-3dprinting-world-bed/)<br/>
 
