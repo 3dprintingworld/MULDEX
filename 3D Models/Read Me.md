@@ -1,0 +1,1 @@
+Notice: Step files are prelimary and for reference only. For the most up to date models use the stl files.  
