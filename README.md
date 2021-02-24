@@ -29,9 +29,12 @@ Reverse Bowden w/filament runout<br/>
 Facebook: [Muldex User Group](https://www.facebook.com/groups/961386687613469)<br/>
 BMG Extruder Carriage Render: [Animation](https://https://youtu.be/zeYfmW2Gefs)<br/>
 Jig's for drilling the holes in the extrusions can be found here:[ Guillaume Gendron's Drilling Jigs](https://www.prusaprinters.org/prints/32532-drilling-jigs-for-2020-and-2040-extrusions?fbclid=IwAR0py0DBZHolj00tUQ7sBJJz-VRNig2q1UsV53dtzBp9e5wvFwZq9592s_k)<br/>
-Custom cut Mic6 bed from [3Dfused ](https://3dfused.com/product/muldex-by-3dprinting-world-bed/)<br/>
+[Slim Fan Modules by Guillame](https://www.prusaprinters.org/prints/57909-slim-fan-modules-for-muldex-3d-printer?fbclid=IwAR1LUKdStJzdeCj07-AQYYDATjaVk-FsLqpCQFoRgQtkbk-Yzvir9qinrzk)<br/>
+<br/>
+### Kits from LDO are Available!!
 Motor, rail, bolt, frame, and bed kits from LDO can be found [here](https://dddprintingworld.com/collections/mulex)<br/>
-
+Custom cut Mic6 bed from [3Dfused ](https://3dfused.com/product/muldex-by-3dprinting-world-bed/)<br/>
+Pannel Kit from [Repkord](https://www.repkord.com/products/sidepanel-set-for-muldex)<br/>
 Additional links can be found in the bom. <br/>
 
 ### Sponsers:
@@ -48,8 +51,8 @@ Additional links can be found in the bom. <br/>
 [Zesty Tech](https://zesty.tech/)<br/>
 
 ### Firmware, to do list:<br/>
-1. Add Filament Sensors<br/>
-2. Filament Change Sequence<br/>
+1. Y-axis Sensorless homing(optional)<br/>
+2. Tool select Macros<br/>
 3. Add macros to turn off mesh bed and change first layer heights<br/>
 
 Note: current firmware only supports the BMG extruder, X-axis on left.<br/>
