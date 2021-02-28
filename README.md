@@ -3,9 +3,9 @@
 # Muldex
 Opensource IDEX REP-RAP 3D Printer
 ### Print Volume:
-Single Mode: 365mm x 300mm x 300mm<br/>
-Copy Mode: 180mm x 300mm x 300mm<br/>
-Dual Extruder: 330mm x 300mm x 300mm
+Single Mode: 340mm x 300mm x 300mm<br/>
+Copy Mode: 190mm x 300mm x 300mm<br/>
+Dual Extruder: 310mm x 300mm x 300mm
 ### Build Platform:<br/>
 300mm X 400mm <br/>
 120v Silicone heater <br/>
