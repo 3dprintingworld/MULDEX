@@ -54,6 +54,7 @@ Additional links can be found in the bom. <br/>
 1. Y-axis Sensorless homing(optional)<br/>
 2. Tool select Macros<br/>
 3. Add macros to turn off mesh bed and change first layer heights<br/>
+4. Mirror mode support<br/>
 
 Note: current firmware only supports the BMG extruder, X-axis on left.<br/>
   
