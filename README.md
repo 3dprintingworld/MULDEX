@@ -28,7 +28,7 @@ Reverse Bowden w/filament runout<br/>
 ### Links:
 Facebook: [Muldex User Group](https://www.facebook.com/groups/961386687613469)<br/>
 BMG Extruder Carriage Render: [Animation](https://https://youtu.be/zeYfmW2Gefs)<br/>
-br/>
+<br/>
 Community Updates:<br/>
 [ Guillaume's Drilling Jigs](https://www.prusaprinters.org/prints/32532-drilling-jigs-for-2020-and-2040-extrusions?fbclid=IwAR0py0DBZHolj00tUQ7sBJJz-VRNig2q1UsV53dtzBp9e5wvFwZq9592s_k)<br/>
 [Guillame's Slim Fan Modules](https://www.prusaprinters.org/prints/57909-slim-fan-modules-for-muldex-3d-printer?fbclid=IwAR1LUKdStJzdeCj07-AQYYDATjaVk-FsLqpCQFoRgQtkbk-Yzvir9qinrzk)<br/>
