@@ -28,8 +28,11 @@ Reverse Bowden w/filament runout<br/>
 ### Links:
 Facebook: [Muldex User Group](https://www.facebook.com/groups/961386687613469)<br/>
 BMG Extruder Carriage Render: [Animation](https://https://youtu.be/zeYfmW2Gefs)<br/>
-Jig's for drilling the holes in the extrusions can be found here:[ Guillaume Gendron's Drilling Jigs](https://www.prusaprinters.org/prints/32532-drilling-jigs-for-2020-and-2040-extrusions?fbclid=IwAR0py0DBZHolj00tUQ7sBJJz-VRNig2q1UsV53dtzBp9e5wvFwZq9592s_k)<br/>
-[Slim Fan Modules by Guillame](https://www.prusaprinters.org/prints/57909-slim-fan-modules-for-muldex-3d-printer?fbclid=IwAR1LUKdStJzdeCj07-AQYYDATjaVk-FsLqpCQFoRgQtkbk-Yzvir9qinrzk)<br/>
+br/>
+Community Updates:<br/>
+[ Guillaume's Drilling Jigs](https://www.prusaprinters.org/prints/32532-drilling-jigs-for-2020-and-2040-extrusions?fbclid=IwAR0py0DBZHolj00tUQ7sBJJz-VRNig2q1UsV53dtzBp9e5wvFwZq9592s_k)<br/>
+[Guillame's Slim Fan Modules](https://www.prusaprinters.org/prints/57909-slim-fan-modules-for-muldex-3d-printer?fbclid=IwAR1LUKdStJzdeCj07-AQYYDATjaVk-FsLqpCQFoRgQtkbk-Yzvir9qinrzk)<br/>
+[Guillame's Cable Duct](https://www.prusaprinters.org/prints/59193-industrial-style-cable-ducts?fbclid=IwAR302VYfSbdEf_SiUXUZHckp1o5ZY0rE63kEUS7jpT4aqat22o0fa3t0TWk)<br/>
 <br/>
 ### Kits from LDO are Available!!
 Motor, rail, bolt, frame, and bed kits from LDO can be found [here](https://dddprintingworld.com/collections/mulex)<br/>
