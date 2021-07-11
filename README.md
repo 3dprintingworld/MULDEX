@@ -72,5 +72,5 @@ Note: current firmware only supports the BMG extruder, X-axis on left.<br/>
 
 ### Print Examples
 ![Saber](Images/DV%20SABER%20MULDEX.JPG)
-![Bull](Images/BULL-5.JPG)
-*Bull STL courtesy of thigiverse user dizingof
+![Bull](Images/MULDEX-6.JPG)
+
