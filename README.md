@@ -24,6 +24,7 @@ Independently Adjustable Nozzle Height - Slice Engineering Copperhead Hotend <br
 Direct Drive Bondtech BMG Extruder or Remote Direct Drive Zesty Nimble Extruder <br/>
 Purge Bucket/Ooze guards<br/>
 Reverse Bowden w/filament runout<br/>
+![Bludex](Images/MULDEX-11.png)
 
 ### Links:
 Facebook: [Muldex User Group](https://www.facebook.com/groups/961386687613469)<br/>
@@ -54,16 +55,12 @@ Additional links can be found in the bom. <br/>
 [Zesty Tech](https://zesty.tech/)<br/>
 
 ### Firmware, to do list:<br/>
-1. Y-axis Sensorless homing(optional)<br/>
-2. Tool select Macros<br/>
-3. Add macros to turn off mesh bed and change first layer heights<br/>
-4. Mirror mode support<br/>
+1. Tool select Macros<br/>
+2. Add macros to turn off mesh bed and change first layer heights<br/>
+3. Mirror mode support<br/>
 
 Note: current firmware only supports the BMG extruder, X-axis on left.<br/>
   
-### Printed parts, to do list:<br/>
-1. Intergrate trigger for X and U axis optic endstops switches into y axis carriage, and change Y axis switches from mechanical to optical.  Parts affected; MULDEX-14-01, MULDEX-37-01.<br/>
-
 ### Wiring
 ![Wiring](Images/MULDEX%20WIRING%20DIAGRAM.png)
 
@@ -72,5 +69,5 @@ Note: current firmware only supports the BMG extruder, X-axis on left.<br/>
 
 ### Print Examples
 ![Saber](Images/DV%20SABER%20MULDEX.JPG)
-![Bull](Images/MULDEX-6.JPG)
+![Bull](Images/BULL-5.JPG)
 
