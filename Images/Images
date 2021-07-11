@@ -1,2 +1,0 @@
-![Saber](Images/DV%20SABER%20MULDEX.JPG)
-![Bull](Images/BULL-5.JPG)
