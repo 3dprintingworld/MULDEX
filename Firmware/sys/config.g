@@ -50,11 +50,12 @@ M574 Z1 S2 					                   ; Define Z to use Probe. Home to Min.
 ;M591 D1 ; display filament sensor parameters for extruder drive 0
 
 ; Z-Probe
+M307 H7 A-1 C-1 D-1					            ; Disable the 6th Heater to free up PWM channel 5 on the Duex board.
 M671 X-20.6:200:420.6 Y14.3:333.3:14.3 S5       ; Locations left, center, right 
 M950 S0 C"duex.e6heat"                          ; create servo pin 0 for BLTouch
-M558 P9 C"^zprobe.in" H5 F120 T5000             ; set Z probe type to bltouch and the dive height + speeds (WAS 9000)
-G31 P25 X-29 Y0 Z1.55                           ; set Z probe trigger value, offset and trigger height(lower number farther away)1.55glass 1.62 Build
-M557 X10:360 Y10:290 S20                        ; probe from X=10 to 390, Y=10 to 290mm with a mesh spacing of 20mm
+M558 P9 C"^zprobe.in" H5 F120 T5000   ; set Z probe type to bltouch and the dive height + speeds 
+G31 P25 X-29 Y0 Z1.6                             ; set Z probe trigger value, offset and trigger height(lower number farther away)1.9
+M557 X15:360 Y15:290 S20                        ; probe from X=10 to 390, Y=10 to 290mm with a mesh spacing of 20mm S20
 
 ; Heaters
 M308 S0 P"bedtemp" Y"thermistor" T100000 B4534 C9.565227e-8      ; configure sensor 0 as thermistor on pin bedtemp
@@ -93,11 +94,11 @@ G10 P0 X0 Y0 Z0                                  ; set tool 0 axis offsets y was
 G10 P0 R0 S0                                     ; set initial tool 0 active and standby temperatures to 0C
 
 M563 P1 D1 H2 X3 F2 S"Right"                     ; define tool 1 Right
-G10 P1 X0 Y-1.45 Z0                              ; set tool 1 axis offsets (.5BMG) (-1.45)
+G10 P1 X0 Y0 Z0                              ; set tool 1 axis offsets (.5BMG) (-1.45)
 G10 P1 R0 S0                                     ; set initial tool 1 active and standby temperatures to 0C
 
 M563 P2 D0:1 H1:2 X0:3 F0:2 S"Copy"              ; define tool 2 Copy
-G10 P2 X95 Y0 U-95 S0 R0                         ; set tool 2 axis offsets (WAS 105)
+G10 P2 X90 Y0 U-90 S0 R0                         ; set tool 2 axis offsets (WAS 105)
 M567 P2 E1:1         
 M568 P2 S1 ; turn on mixing for tool 2           ; set mix ratio 100% on both extruders
 
