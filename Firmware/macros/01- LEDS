@@ -1,0 +1,9 @@
+;Turn white LEDs on
+if fans[4].actualValue == 0
+  ;M80
+  M106 P4 S1.0
+  M106 P5 S1.0
+else
+  M106 P4 S0
+  M106 P5 S0
+  ;M81 S1
